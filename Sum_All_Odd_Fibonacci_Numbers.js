@@ -6,10 +6,10 @@ function sumFibs(num) {
     
     if (fib % 2 !== 0){  // If % is not 0, that means the number is odd.
       
-      sum = sum + n;  // The sum will increase in n.
+      sum = sum + fib;  // The sum will increase in n.
     }
     
-    var prevN = n;  // Helping variable to store n before increasing the fibonacci secuence.
+    var prevN = fib;  // Helping variable to store n before increasing the fibonacci secuence.
     
     fib = fib + x; // The number + it previous self is the new fibonacci series number.
     
